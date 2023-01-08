@@ -10,8 +10,5 @@ app = Flask(__name__)
 
 @app.get("/greet")
 def index():
-    """
-    TODO:
-    1.Capture first name & lastname
-    """
+
     return jsonify("Hello, World")
